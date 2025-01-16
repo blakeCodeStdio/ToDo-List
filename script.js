@@ -83,7 +83,7 @@ function addItem() {
     // 建立新item
     // 創建一個li並存入newItem
     const newItem = document.createElement("li");
-    // 這句是3小，根本沒有"item"這個CSS
+    
     newItem.classList.add("item");
     // li的文字內容
     newItem.innerText = text;
